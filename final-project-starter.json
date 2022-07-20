@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdacityProjectHAWebApp"
+    },
+    {
+        "ParameterKey": "S3BucketName",
+        "ParameterValue": "udacity_project_632345195260_HA_WebApp"
+    }
+]
