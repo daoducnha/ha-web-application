@@ -5,6 +5,6 @@
     },
     {
         "ParameterKey": "S3BucketName",
-        "ParameterValue": "udacity_project_632345195260_HA_WebApp"
+        "ParameterValue": "udacity-project-632345195260-ha-webapp"
     }
 ]
