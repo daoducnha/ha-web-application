@@ -110,7 +110,7 @@ Resources:
           echo "Udacity Project 2: HA Web Server is Running!" > index.html 
       ImageId: ami-0729e439b6769d6ab
       IamInstanceProfile:  !Ref ProfileWithRolesForOurApp
-      KeyName: !Ref HAWebAppKeyPair
+      # KeyName: !Ref HAWebAppKeyPair
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.medium
@@ -174,8 +174,8 @@ Resources:
       VpcId: 
         Fn::ImportValue:
           Fn::Sub: "${EnvironmentName}-VPCID"
-  HAWebAppKeyPair:
-    Type: 'AWS::EC2::KeyPair'
-    Properties:
-      KeyName: ha4-web-app-keypair
+  # HAWebAppKeyPair:
+  #   Type: 'AWS::EC2::KeyPair'
+  #   Properties:
+  #     KeyName: ha4-web-app-keypair
     
